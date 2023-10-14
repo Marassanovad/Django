@@ -1,0 +1,73 @@
+INFO "GET / HTTP/1.1" 200 13
+INFO "GET / HTTP/1.1" 200 13
+INFO 12345678
+INFO "GET /about/ HTTP/1.1" 200 8
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO "GET / HTTP/1.1" 200 123
+INFO "GET / HTTP/1.1" 200 144
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO 12345678
+INFO "GET / HTTP/1.1" 200 13
+INFO 12345678
+INFO "GET / HTTP/1.1" 200 13
+WARNING Not Found: /main
+WARNING "GET /main HTTP/1.1" 404 2418
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/urls.py changed, reloading.
+INFO 12345678
+INFO "GET / HTTP/1.1" 200 13
+INFO 12345678
+INFO "GET / HTTP/1.1" 200 13
+INFO "GET /main HTTP/1.1" 301 0
+INFO 12345678
+INFO "GET /main/ HTTP/1.1" 200 123
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/urls.py changed, reloading.
+ERROR Internal Server Error: /main/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py", line 18, in main
+    logger.info('Пользователь успешно зашел: '+ datetime.now())
+                                                ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR "GET /main/ HTTP/1.1" 500 60242
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO 12345678
+INFO "GET / HTTP/1.1" 200 13
+ERROR Internal Server Error: /main/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py", line 19, in main
+    logger.info('Пользователь успешно зашел: '+ datetime.now())
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "datetime.datetime") to str
+ERROR "GET /main/ HTTP/1.1" 500 60244
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO "GET /main/ HTTP/1.1" 200 144
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO 12345678
+INFO "GET / HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-14 15:45:42.712805
+INFO "GET /main/ HTTP/1.1" 200 144
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+INFO Пользователь успешно зашел: 2023-10-14 16:19:05.919360
+INFO "GET / HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-14 16:19:09.581858
+INFO "GET / HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-14 16:19:10.525951
+INFO "GET /main/ HTTP/1.1" 200 2933
+INFO Пользователь успешно зашел: 2023-10-14 16:19:20.261592
+INFO "GET /about/ HTTP/1.1" 200 2560

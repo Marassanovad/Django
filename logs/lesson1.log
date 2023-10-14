@@ -1,0 +1,11 @@
+
+/Users/dasa/Documents/geekbrains/Django/project/lesson1/views.py changed, reloading.
+Watching for file changes with StatReloader
+Пользователь успешно зашел: 2023-10-14 16:19:05.919360
+"GET / HTTP/1.1" 200 13
+Пользователь успешно зашел: 2023-10-14 16:19:09.581858
+"GET / HTTP/1.1" 200 13
+Пользователь успешно зашел: 2023-10-14 16:19:10.525951
+"GET /main/ HTTP/1.1" 200 2933
+Пользователь успешно зашел: 2023-10-14 16:19:20.261592
+"GET /about/ HTTP/1.1" 200 2560
