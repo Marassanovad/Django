@@ -9,3 +9,26 @@ Watching for file changes with StatReloader
 "GET /main/ HTTP/1.1" 200 2933
 Пользователь успешно зашел: 2023-10-14 16:19:20.261592
 "GET /about/ HTTP/1.1" 200 2560
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+WARNING Not Found: /
+"GET / HTTP/1.1" 404 2276
+WARNING "GET / HTTP/1.1" 404 2276
+"GET /lesson1 HTTP/1.1" 301 0
+INFO "GET /lesson1 HTTP/1.1" 301 0
+Пользователь успешно зашел: 2023-10-15 05:10:19.110777
+INFO Пользователь успешно зашел: 2023-10-15 05:10:19.110777
+"GET /lesson1/ HTTP/1.1" 200 13
+INFO "GET /lesson1/ HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-15 05:10:24.277064
+"GET /lesson2/ HTTP/1.1" 200 13
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+/Users/dasa/Documents/geekbrains/Django/project/project/settings.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/project/settings.py changed, reloading.
+WARNING Not Found: /
+WARNING "GET / HTTP/1.1" 404 2276
+INFO Пользователь успешно зашел: 2023-10-15 05:11:44.209855
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-15 05:11:52.221733
+INFO "GET /lesson1/ HTTP/1.1" 200 13
