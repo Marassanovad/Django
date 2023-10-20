@@ -1,25 +1,22 @@
 {% extends 'base.html' %}
 
 
-{% block title %} Заказы {% endblock %}
+{% block title %} Заказы пользователя {% endblock %}
 {% block content %}
 
-    {% if orders.count > 0 %}
-    <h2>Список заказов</h2>
+    <h2>Заказы пользователя {{ user.name }}</h2>
     <table>
-        <thead><th>Id</th><th>Customer</th><th>products</th><th>Total</th><th>Date</th></thead>
+        <thead><th>Id</th><th>products</th><th>Total</th><th>Date</th></thead>
         {% for order in orders %}
         <tr>
             <td>{{ order.id }}</td>
-            <td>{{ order.customer.name }}</td>
             <td>{% for product in order.products.all %}
                 {{ product.name }}
                 {% endfor %} </td>
-    
             <td>{{ order.total_price }}</td>
             <td>{{ order.date_ordered }}</td>
         </tr>
         {% endfor %}
     </table>
-    {% endif %}
+
 {% endblock %}

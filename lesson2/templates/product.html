@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+
+{% block title %} Заказы {% endblock %}
+{% block content %}
+
+    {% if products.count > 0 %}
+    <h2>Список заказов</h2>
+    <table>
+        <thead><th>Id</th><th>Name</th><th>Descript</th><th>Price</th><th>Count</th><th>Date</th></thead>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.description }}</td>
+            <td>{{ product.price  }}</td>
+            <td>{{ product.count }}</td>
+            <td>{{ product.date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+{% endblock %}

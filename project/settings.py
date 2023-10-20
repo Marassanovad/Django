@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "lesson1",
     "lesson2",
+    # "lesson4",
+    # "lesson5",
+    # "lesson6",
 ]
 
 MIDDLEWARE = [
@@ -59,7 +62,9 @@ ROOT_URLCONF = "project.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            BASE_DIR / 'templates',
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -114,6 +119,7 @@ TIME_ZONE = "UTC"
 
 USE_I18N = True
 
+# USE_TZ = False
 USE_TZ = True
 
 
@@ -138,11 +144,11 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': './logs/django.log',
         },
-        'file': {
+        'file1': {
             'class': 'logging.FileHandler',
             'filename': './logs/lesson1.log',
         },
-        'file': {
+        'file2': {
             'class': 'logging.FileHandler',
             'filename': './logs/lesson2.log',
         },
@@ -153,12 +159,12 @@ LOGGING = {
             'level': 'INFO',
         },
         'lesson1': {
-            'handlers': ['console', 'file'],
+            'handlers': ['console', 'file1'],
             'level': 'DEBUG',
             'propagate': True,
         },
         'lesson2': {
-            'handlers': ['console', 'file'],
+            'handlers': ['console', 'file2'],
             'level': 'DEBUG',
             'propagate': True,
         },

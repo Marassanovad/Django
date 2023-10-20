@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    {% if user.count > 0 %}
+{% extends 'base.html' %}
+
+
+{% block title %} Пользователи {% endblock %}
+{% block content %}
+
+    {% if users.count > 0 %}
     <h2>Список пользователей</h2>
     <table>
         <thead><th>Id</th><th>Имя</th><th>Email</th><th>Adress</th><th>Phone_number</th><th>Date</th></thead>
-        {% for person in user %}
+        {% for person in users %}
         <tr>
             <td>{{ person.id }}</td>
             <td>{{ person.name }}</td>
@@ -21,5 +20,4 @@
         {% endfor %}
     </table>
     {% endif %}
-</body>
-</html>
+{% endblock %}
