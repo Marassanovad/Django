@@ -8,6 +8,8 @@ urlpatterns = [
     path('order/', views.get_all_order, name='all_order'),
     path('user/<int:user_id>/', views.user_orders, name='user_orders'),
     path('user/<int:user_id>/<int:date>', views.user_fillter_products, name='user_fillter_products'),
+    path('user_reg/', views.user_registration, name='user_registration'),
+    path('edit_prod/', views.edit_product, name='edit_product'),
     # path('post/<int:post_id>/', post_full, name='post_full'),
     # path('about/', views.about, name='about'),
 ]

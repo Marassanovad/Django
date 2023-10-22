@@ -9,17 +9,17 @@ class User(models.Model):
     phone_number = models.CharField(max_length=12)
     address = models.TextField(max_length=20)
     date = models.DateField(auto_now_add=True)
-
+    image = models.ImageField(default='none')
     def __str__(self):
         return f'Username: {self.name}, email: {self.email}, date:{self.date}'
 
 class Product(models.Model):
-    name = models.CharField(max_length=10)
-    description = models.TextField()
-    price = models.DecimalField(max_digits=8, decimal_places=2)
+    name = models.CharField(max_length=10, default='none')
+    description = models.TextField(default='none')
+    price = models.DecimalField(max_digits=8, decimal_places=2, default=0)
     count = models.IntegerField(default=0)
     date = models.DateField(auto_now_add=True)
-    # image = models.ImageField(upload_to='products/')
+    image = models.ImageField(upload_to='products/', default='none')
 
     def __str__(self):
         return f'Name: {self.name}, price: {self.price}, date:{self.date}'

@@ -1184,3 +1184,944 @@ AttributeError: module 'datetime' has no attribute 'now'
 "GET /lesson2/user/1/8 HTTP/1.1" 200 350
 "GET /lesson2/user/1/ HTTP/1.1" 200 902
 "GET /lesson2/user/1/9 HTTP/1.1" 200 491
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2327
+Internal Server Error: /lesson2/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 17, in index
+    logger.info('Пользователь успешно зашел: ' + str(datetime.now()))
+                                                     ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+"GET /lesson2/ HTTP/1.1" 500 61431
+"GET /lesson2/user/1/1 HTTP/1.1" 200 350
+Internal Server Error: /lesson2/user/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 21, in get_all_user
+    logger.info('Пользователь успешно зашел: ' + str(datetime.now()))
+                                                     ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+"GET /lesson2/user/ HTTP/1.1" 500 61595
+"GET /lesson2/user_reg HTTP/1.1" 301 0
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1458
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson2.views.user_registration didn't return an HttpResponse object. It returned None instead.
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64203
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson2.views.user_registration didn't return an HttpResponse object. It returned None instead.
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64203
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson2.views.user_registration didn't return an HttpResponse object. It returned None instead.
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64206
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson2.views.user_registration didn't return an HttpResponse object. It returned None instead.
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64206
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 65, in user_registration
+    return render(request, 'user_reg.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'endblock'. Did you forget to register or load this tag?
+"GET /lesson2/user_reg/ HTTP/1.1" 500 143634
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson2.views.user_registration didn't return an HttpResponse object. It returned None instead.
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64204
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson2.views.user_registration didn't return an HttpResponse object. It returned None instead.
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64203
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1422
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1422
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1422
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1417
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1417
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1428
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1415
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1415
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1416
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1416
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1416
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1290
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1412
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1442
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 58, in user_registration
+    image = form.cleaned_data.get(['image'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+"POST /lesson2/user_reg/ HTTP/1.1" 500 64823
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 63, in user_registration
+    user.save()
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1695, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/fields/files.py", line 315, in pre_save
+    if file and not file._committed:
+                    ^^^^^^^^^^^^^^^
+AttributeError: 'FileSystemStorage' object has no attribute '_committed'
+"POST /lesson2/user_reg/ HTTP/1.1" 500 125278
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+Internal Server Error: /lesson2/user_reg/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 63, in user_registration
+    user.save()
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1695, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/db/models/fields/files.py", line 315, in pre_save
+    if file and not file._committed:
+                    ^^^^^^^^^^^^^^^
+AttributeError: 'FileSystemStorage' object has no attribute '_committed'
+"POST /lesson2/user_reg/ HTTP/1.1" 500 125271
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1397
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1397
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+"POST /lesson2/user_reg/ HTTP/1.1" 200 1401
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+"GET /lesson2/ HTTP/1.1" 200 13
+"GET /lesson2/edit_prod HTTP/1.1" 301 0
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1574
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 87, in edit_product
+    product = product(name=name, description=description, price=price, count=count, image=image.name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Product' object is not callable
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 65969
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1574
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1641
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1574
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1637
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1066
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 716
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 716
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 740
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1526
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 564
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 564
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(product_id, choice)
+                        ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'product_id' where it is not associated with a value
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 63225
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 564
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit HTTP/1.1" 301 0
+"GET /lesson2/edit/ HTTP/1.1" 200 564
+Internal Server Error: /lesson2/edit/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(product_id, choice)
+                        ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'product_id' where it is not associated with a value
+"POST /lesson2/edit/ HTTP/1.1" 500 63170
+"GET /lesson2/edit/ HTTP/1.1" 200 564
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /lesson2/edit/
+"GET /lesson2/edit/ HTTP/1.1" 404 3735
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(product_id, choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_product() missing 1 required positional argument: 'choice'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 63745
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 79, in choice_product
+    return edit_product(product_id, choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_product() missing 1 required positional argument: 'choice'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 63390
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 80, in choice_product
+    return edit_product(product_id, choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_product() missing 1 required positional argument: 'choice'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 63386
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 79, in choice_product
+    return edit_product(pk=product_id,choice=choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_product() missing 1 required positional argument: 'request'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 63430
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product("GET", pk=product_id,choice=choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 85, in edit_product
+    if request.method == 'POST':
+       ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'method'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 67941
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(request.method == "GET", pk=product_id,choice=choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 85, in edit_product
+    if request.method == 'POST':
+       ^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'method'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 68025
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 563
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(request, pk=product_id,choice=choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 101, in edit_product
+    return render(request, 'edit_product.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 180791
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(request, pk=product_id,choice=choice)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 101, in edit_product
+    return render(request, 'edit_product.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 182513
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1451
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 563
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 78, in choice_product
+    return edit_product(request, pk=product_id,choice=choice)
+                                    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'product_id' where it is not associated with a value
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 63292
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+"GET /lesson2/user/ HTTP/1.1" 200 3393
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+"GET /lesson2/ HTTP/1.1" 200 13
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_product() missing 2 required positional arguments: 'pk' and 'choice'
+"GET /lesson2/edit_prod/ HTTP/1.1" 500 58432
+Not Found: /lesson2/edit/
+"GET /lesson2/edit/ HTTP/1.1" 404 3735
+Not Found: /lesson2/edit/
+"GET /lesson2/edit/ HTTP/1.1" 404 3735
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_product() missing 2 required positional arguments: 'pk' and 'choice'
+"GET /lesson2/edit_prod/ HTTP/1.1" 500 58432
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 105, in edit_product
+    return render(request, 'edit_product.html', {'form': form, 'message': message, 'choises': choice})
+                                                                                              ^^^^^^
+NameError: name 'choice' is not defined
+"GET /lesson2/edit_prod/ HTTP/1.1" 500 61625
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 105, in edit_product
+    return render(request, 'edit_product.html', {'form': form, 'message': message, 'choises': choice})
+                                                                                              ^^^^^^
+NameError: name 'choice' is not defined
+"GET /lesson2/edit_prod/ HTTP/1.1" 500 61625
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 92, in edit_product
+    fs.save(datas['image'].name, datas['image'])
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 65116
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 93, in edit_product
+    logger.info(f'Получили {datas["name"]=}, {datas["description"]=}, {datas["price"]=}, {datas["count"]=}, {datas["image"].name=}.')
+                                                                                                             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 65185
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 96, in edit_product
+    if datas[data].isEmpty:
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isEmpty'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 65221
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1699
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1736
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1722
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1724
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1722
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1723
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1722
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+Internal Server Error: /lesson2/edit_prod/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py", line 102, in edit_product
+    product.save()
+    ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'save'
+"POST /lesson2/edit_prod/ HTTP/1.1" 500 64648
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1714
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1713
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1676
+"POST /lesson2/edit_prod/ HTTP/1.1" 200 1746
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1547
+/Users/dasa/Documents/geekbrains/Django/project/lesson2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+"GET /lesson2/user_reg/ HTTP/1.1" 200 1320
+"GET /lesson2/ HTTP/1.1" 200 13
+"GET /lesson2/edit_prod/ HTTP/1.1" 200 1670
+/Users/dasa/Documents/geekbrains/Django/project/project/settings.py changed, reloading.
+Watching for file changes with StatReloader
