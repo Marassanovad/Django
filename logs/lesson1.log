@@ -2127,3 +2127,345 @@ INFO "GET /lesson2/ HTTP/1.1" 200 13
 INFO Пользователь успешно зашел: 2023-10-21 18:35:56.251988
 INFO "GET /lesson2/edit_prod/ HTTP/1.1" 200 1670
 INFO /Users/dasa/Documents/geekbrains/Django/project/project/settings.py changed, reloading.
+WARNING Not Found: /
+WARNING "GET / HTTP/1.1" 404 2276
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2390
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2354
+INFO "GET /admin HTTP/1.1" 301 0
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4543
+INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4541
+INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO "GET /admin/ HTTP/1.1" 200 5852
+INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/ HTTP/1.1" 200 7423
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO "GET /admin/lesson2/product/4/change/ HTTP/1.1" 200 12256
+INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 12745
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 15363
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 15363
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 12745
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 14299
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 17428
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 14299
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13541
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 17428
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 17428
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 17428
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18103
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/?date_ordered__gte=2023-10-18+00%3A00%3A00%2B00%3A00&date_ordered__lt=2023-10-26+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 19276
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/?date_ordered__gte=2023-10-01+00%3A00%3A00%2B00%3A00&date_ordered__lt=2023-11-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 19790
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/?date_ordered__gte=2023-01-01+00%3A00%3A00%2B00%3A00&date_ordered__lt=2024-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 19790
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/? HTTP/1.1" 200 18103
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/order/? HTTP/1.1" 200 18547
+INFO "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 13983
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 14742
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14145
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14165
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14165
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14165
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR Internal Server Error: /admin/lesson2/product/10/change/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (count ) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (count ) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR "GET /admin/lesson2/product/10/change/ HTTP/1.1" 500 128133
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14165
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/10/change/ HTTP/1.1" 200 12077
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 14742
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/1/change/ HTTP/1.1" 200 12110
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/17/change/ HTTP/1.1" 200 15111
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/order/17/change/ HTTP/1.1" 200 15111
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/17/change/ HTTP/1.1" 200 15111
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14165
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/10/change/ HTTP/1.1" 200 12077
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/10/change/ HTTP/1.1" 200 12077
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/add/ HTTP/1.1" 200 14600
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/add/ HTTP/1.1" 200 11718
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/add/ HTTP/1.1" 200 11717
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/add/ HTTP/1.1" 200 14600
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14165
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/10/change/ HTTP/1.1" 200 12077
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/10/change/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14413
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO "GET /admin/lesson2/product/?q=Katya HTTP/1.1" 200 11693
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/?q=Name HTTP/1.1" 200 13186
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/7/change/?_changelist_filters=q%3DName HTTP/1.1" 200 12168
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/7/change/?_changelist_filters=q%3DName HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/?q=Name HTTP/1.1" 200 13434
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/?o=2.1.-3&q=Name HTTP/1.1" 200 13757
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 14742
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/1/change/ HTTP/1.1" 200 12110
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/17/change/ HTTP/1.1" 200 15110
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/order/17/change/ HTTP/1.1" 200 14923
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/product/9/change/ HTTP/1.1" 200 12020
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/ HTTP/1.1" 200 14742
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /admin/lesson2/user/?o=2.1.-3 HTTP/1.1" 200 15634
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR Internal Server Error: /admin/lesson2/product/
+Traceback (most recent call last):
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1959, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py", line 11, in update_quantity
+    queryset.update(count=modeladmin.count + 100)
+                          ^^^^^^^^^^^^^^^^
+AttributeError: 'ProductAdmin' object has no attribute 'count'
+ERROR "POST /admin/lesson2/product/ HTTP/1.1" 500 103376
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.

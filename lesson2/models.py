@@ -11,7 +11,7 @@ class User(models.Model):
     date = models.DateField(auto_now_add=True)
     image = models.ImageField(default='none')
     def __str__(self):
-        return f'Username: {self.name}, email: {self.email}, date:{self.date}'
+        return f'Username: {self.name}, email: {self.email}'
 
 class Product(models.Model):
     name = models.CharField(max_length=10, default='none')
@@ -22,7 +22,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to='products/', default='none')
 
     def __str__(self):
-        return f'Name: {self.name}, price: {self.price}, date:{self.date}'
+        return f'Name: {self.name}, price: {self.price}'
 
 
 class Order(models.Model):
@@ -33,7 +33,7 @@ class Order(models.Model):
 
 
     def __str__(self):
-        return f'Order by: {self.customer}, Total price : {self.total_price }, date:{self.date_ordered}'
+        return f'Order by: {self.customer.email}, Total price : {self.total_price }, date:{self.date_ordered}'
 
 
 
