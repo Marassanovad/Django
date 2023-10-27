@@ -456,5 +456,5 @@ $RECYCLE.BIN/
 /media/
 /static/
 *.sqlite3
-*.log
+*.logs
 *.pyc
