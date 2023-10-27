@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import User, Product, Order
+from django.db.models import F
 
 # Register your models here.
 @admin.action(description="Сбросить количество в ноль")
@@ -8,8 +9,7 @@ def reset_quantity(modeladmin, request, queryset):
 
 @admin.action(description="Добавить 100 ед. продукта")
 def update_quantity(modeladmin, request, queryset):
-    queryset.update(count=100)
-
+    queryset.update(count=F('count') + 100)
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
     list_display = ['name', 'email', 'phone_number']
@@ -40,6 +40,7 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ['date_ordered']
     search_fields = ['customer']
     search_help_text = 'Поиск по Client'
+
 
 # admin.site.register(User, UserAdmin)
 # admin.site.register(Product, ProductAdmin)

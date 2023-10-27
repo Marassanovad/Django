@@ -2469,3 +2469,87 @@ INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
 INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+WARNING Not Found: /
+WARNING "GET / HTTP/1.1" 404 2276
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO "GET /admin/ HTTP/1.1" 200 8105
+INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/admin.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+INFO "GET /admin/lesson2/order/ HTTP/1.1" 200 18547
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO /Users/dasa/Documents/geekbrains/Django/project/lesson2/models.py changed, reloading.
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14307
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO "POST /admin/lesson2/product/ HTTP/1.1" 302 0
+INFO "GET /admin/lesson2/product/ HTTP/1.1" 200 14164
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING Not Found: /
+WARNING "GET / HTTP/1.1" 404 12507
+INFO "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO Пользователь успешно зашел: 2023-10-27 16:19:01.136894
+INFO "GET /lesson2/edit_prod/ HTTP/1.1" 200 11846
+INFO Пользователь успешно зашел: 2023-10-27 16:19:07.693193
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+INFO "GET /lesson2 HTTP/1.1" 301 0
+INFO Пользователь успешно зашел: 2023-10-27 16:19:08.060391
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-27 16:19:12.858619
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-27 16:19:13.530236
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+WARNING Not Found: /
+WARNING "GET / HTTP/1.1" 404 12507
+INFO Пользователь успешно зашел: 2023-10-27 16:19:39.880969
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-27 16:19:41.515956
+INFO "GET /lesson2/ HTTP/1.1" 200 13
+INFO Пользователь успешно зашел: 2023-10-27 16:20:05.348582
+INFO "GET /lesson2/user_reg/ HTTP/1.1" 200 11496
+INFO "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO Пользователь успешно зашел: 2023-10-27 16:20:06.251195
+INFO "GET /lesson2/user/ HTTP/1.1" 200 13723
+INFO /Users/dasa/Documents/geekbrains/Django/project/project/settings.py changed, reloading.
+INFO /Users/dasa/Documents/geekbrains/Django/project/project/settings.py changed, reloading.

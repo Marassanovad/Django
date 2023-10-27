@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,14 +21,21 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-&qzokr!d#i7-w#lk(6c&+#45c94p3rvd8t82va42n6sm$58#+g"
-
+# SECRET_KEY = "django-insecure-&qzokr!d#i7-w#lk(6c&+#45c94p3rvd8t82va42n6sm$58#+g"
+SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
+DEBUG = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '192.168.1.109',
+
+    'marassanovad.pythonanywhere.com',
+]
+INTERNAL_IPS = [
+    '127.0.0.1',
 ]
 
 
@@ -42,11 +50,11 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "lesson1",
     "lesson2",
-    # "lesson5",
-    # "lesson6",
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -85,8 +93,13 @@ WSGI_APPLICATION = "project.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        # "NAME": BASE_DIR / "db.sqlite3",
+        'NAME': '<marassanovad>$<marassanovad$default>',
+        'USER': '<marassanovad>',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+        'HOST': '<marassanovad.mysql.pythonanywhere-services.com>',
+        'OPTIONS': {'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'", 'charset': 'utf8mb4', },
     }
 }
 
@@ -128,9 +141,7 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
-STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, "static"),
-]
+STATIC_ROOT = BASE_DIR / 'static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'

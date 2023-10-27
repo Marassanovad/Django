@@ -13,6 +13,9 @@ class User(models.Model):
     def __str__(self):
         return f'Username: {self.name}, email: {self.email}'
 
+    def __str__(self):
+        return f'Username: {self.name}'
+
 class Product(models.Model):
     name = models.CharField(max_length=10, default='none')
     description = models.TextField(default='none')
@@ -33,7 +36,7 @@ class Order(models.Model):
 
 
     def __str__(self):
-        return f'Order by: {self.customer.email}, Total price : {self.total_price }, date:{self.date_ordered}'
+        return f'Order by: {self.customer}, Total price : {self.total_price }, date:{self.date_ordered}'
 
 
 
